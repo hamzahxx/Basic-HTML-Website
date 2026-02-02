@@ -1,0 +1,59 @@
+header > hr.bold-hr {
+    border-top: 2px solid black;
+}
+
+/* NAVBAR */
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar > h2 {
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav > li {
+    margin: 0 10px;
+}
+
+/* HERO */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero > h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hero > p {
+    margin: 0;
+}
+
+/* PROJECTS - ASIDE */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
